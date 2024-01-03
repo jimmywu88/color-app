@@ -16,9 +16,9 @@ app.set('view engine', 'ejs');
 //   message: 'Hello',
 // }
 function getStyleFromEnv() {
-  const backgroundColor = process.env.BG_COLOR || '#000000';
-  const foregroundColor = process.env.FG_COLOR || 'blue';
-  const message = process.env.MESSAGE || backgroundColor;
+  const backgroundColor = process.env.BG_COLOR || 'blue';
+  const foregroundColor = process.env.FG_COLOR || '#FFFFFF';
+  const message = process.env.MESSAGE || Hello World! SS2 OCP v1;
 
   return {
     styleClass: `background-color:${backgroundColor}; color:${foregroundColor}`,
