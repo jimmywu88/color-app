@@ -17,7 +17,7 @@ app.set('view engine', 'ejs');
 // }
 function getStyleFromEnv() {
   const backgroundColor = process.env.BG_COLOR || '#000000';
-  const foregroundColor = process.env.FG_COLOR || '#FFFFFF';
+  const foregroundColor = process.env.FG_COLOR || 'blue';
   const message = process.env.MESSAGE || backgroundColor;
 
   return {
